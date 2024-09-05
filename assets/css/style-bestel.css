@@ -1,0 +1,93 @@
+:root{
+    --color1: #ec4e20;
+    --color2: #353531;
+}
+
+.main{
+    display: flex;
+}
+
+.main__section1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main__icon{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main__section2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.main__title{
+    font-size: 3rem;
+}
+
+.main__filter{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.filter__name{
+    font-size: 2rem;
+}
+
+.filter__list{
+    display: flex;
+    gap: 1rem;
+}
+
+.list__item{
+    list-style: none;
+    height: 4rem;
+    width: 4rem;
+    border: 2px solid var(--color2);
+}
+
+.list__item:hover{
+    cursor: pointer;
+}
+
+.blauw{
+    background: rgb(0, 157, 255);
+}
+
+.rood{
+    background: red;
+}
+
+.goud{
+    background: gold;
+}
+
+.zilver{
+    background: silver;
+}
+
+.item__img{
+    width: 100%;
+}
+
+.bestel__button{
+    width: 15rem;
+    height: 4rem;
+    background: var(--color1);
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.bestel__button:hover{
+    cursor: pointer;
+}

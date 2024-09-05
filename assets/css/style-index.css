@@ -1,0 +1,35 @@
+:root{
+    --color1: #ec4e20;
+    --color2: #353531;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.main__title{
+    font-size: 4rem;
+    color: var(--color2);
+}
+
+.main__text{
+    font-size: 1.5rem;
+    color: var(--color2);
+    width: 50%;
+}
+
+.main__button{
+    width: 15rem;
+    height: 4rem;
+    background: var(--color1);
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.main__button:hover{
+    cursor: pointer;
+}

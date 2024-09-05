@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-bestel.css">
+    <link rel="stylesheet" href="assets/css/style-skate.css">
+    <script src="assets/js/app.js" defer></script>
+    <title>Webshop</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__div header__div1">
+            <img onclick="location.href = '/index.html'" class="header__logo" src="/assets/Media-assets/logo/logo.png" alt="header logo">
+        </div>
+        <div class="header__div header__div2">
+            <a href="shop.html" class="header__link">Aanbod</a>
+            <p class="header__link">Prijs: €<span id="js--price">24.5</span></p>
+        </div>  
+    </header>
+    <main class="main">
+        <section class="main__section main__section1">
+            <img id="js--image" src="assets/Media-assets/products/skateboard.png" alt="pet">
+            <img id="js--iconImage" src="" alt="" class="main__icon">
+        </section>
+        <section class="main__section main__section2">
+            <p class="main__title">Stel je eigen skateboard samen:</p>
+            <div class="main__filter">
+                <p class="filter__name">Kleuren:</p>
+                <ul class="filter__list">
+                    <li onclick="color(0,0)" class="list__item blauw"></li>
+                    <li onclick="color(1,0)" class="list__item rood"></li>
+                    <li onclick="color(2,0)" class="list__item goud"></li>
+                    <li onclick="color(3,0)" class="list__item zilver"></li>
+                </ul>
+                <p class="filter__name">symbool:</p>
+                <ul class="filter__list">
+                    <li onclick="symbol(0)" class="list__item"><img src="assets/Media-assets/symbols/symbol-BAM.png" alt="" class="item__img"></li>
+                    <li onclick="symbol(1)" class="list__item"><img src="assets/Media-assets/symbols/symbol-BANG.png" alt="" class="item__img"></li>
+                    <li onclick="symbol(2)" class="list__item"><img src="assets/Media-assets/symbols/symbol-BOO.png" alt="" class="item__img"></li>
+                    <li onclick="symbol(3)" class="list__item"><img src="assets/Media-assets/symbols/symbol-BOOM!.png" alt="" class="item__img"></li>
+                    <li onclick="symbol(4)" class="list__item"><img src="assets/Media-assets/symbols/symbol-LOL.png" alt="" class="item__img"></li>
+                    <li onclick="symbol(5)" class="list__item"><img src="assets/Media-assets/symbols/symbol-OH.png" alt="" class="item__img"></li>
+                    <li onclick="symbol(6)" class="list__item"><img src="assets/Media-assets/symbols/symbol-OMG!.png" alt="" class="item__img"></li>
+                    <li onclick="symbol(7)" class="list__item"><img src="assets/Media-assets/symbols/symbol-POW.png" alt="" class="item__img"></li>
+                </ul>
+            </div>
+            <div>
+                <button class="bestel__button" onclick="bestel(0)">Bestel</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+
+    </footer>
+</body>
+</html>
